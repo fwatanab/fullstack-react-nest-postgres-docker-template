@@ -43,7 +43,7 @@ services:
     volumes:
       - ./docker/db/data:/var/lib/postgresql/data
     ports:
-      - "5555:5432"
+      - "5432:5432"
 
 networks:
   default:
